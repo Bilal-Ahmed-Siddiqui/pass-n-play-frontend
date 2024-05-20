@@ -1,0 +1,32 @@
+.Ad-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Ad-header h2 {
+  margin: 0;
+}
+
+.Ad-header i {
+  font-size: 1.5rem;
+}
+
+.myad-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-wrapper {
+  position: relative;
+  flex: 0 0 calc(33.33% - 1rem);
+  margin: 1rem;
+  z-index: 1; /* Set a higher z-index for post wrapper */
+}
+
+.dropdown {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+  z-index: 2; /* Set a higher z-index for dropdown */
+}

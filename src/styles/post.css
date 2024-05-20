@@ -1,0 +1,25 @@
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .post-card {
+    margin: 0.5rem;
+    background-color: #464e57;
+    color: white;
+
+  }
+  
+  .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-title {
+    margin-right: 1rem; /* Adjust as needed */
+  }
+  
+  .card-text {
+    margin-right: 1rem; /* Adjust as needed */
+  }

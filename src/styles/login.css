@@ -1,0 +1,106 @@
+.main-container {
+  background-color: #343a40; /* Dark color */
+  border-radius: 15px; /* Rounded corners */
+  margin: 2%; /* 2% margin from all sides */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Shadow */
+  height: 91vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.right {
+  width: calc(50%); /* Adjust width to accommodate separator */
+  height: 100%;
+  background-color: transparent;
+  padding-top: 5%;
+  /* Example background color */
+}
+
+.loginform {
+  border-radius: 10px; /* Rounded corners */
+  margin: 10%;
+  height: 50vh;
+  background-color: #fff;
+  color: black;
+}
+
+.loginform h2 {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #888;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.left {
+  width: calc(50% - 1px); /* Adjust width to accommodate separator */
+  height: 100%;
+  background-color: transparent; /* Example background color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add padding */
+}
+
+.heading {
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+.italic {
+  font-style: italic;
+  color: burlywood;
+}
+.tagline {
+  font-size: 30px;
+  color: burlywood;
+}
+.separator-login {
+  width: 3px; /* Thickness of the separator */
+  height: 80%;
+  background-color: white; /* Separator color */
+}
+
+.form-group {
+  margin-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+label {
+  display: block;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #0056b3; /* Example button color on hover */
+}
+
+.loginform button {
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.loginform p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.link {
+  color: burlywood;
+  cursor: pointer;
+}
+.link:hover {
+  text-decoration: underline;
+}

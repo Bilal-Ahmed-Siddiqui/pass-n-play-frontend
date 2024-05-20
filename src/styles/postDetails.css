@@ -1,0 +1,32 @@
+.container {
+    margin: 2%;
+    display: grid;
+    grid-template-columns: auto 1fr; /* First column for the image, second column for details */
+    align-items: start;
+  }
+  
+  .container img {
+    width: 550px; /* Set width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add some spacing between image and text */
+    border: 2px solid #888;
+    border-radius: 8px;
+  }
+  
+  .detail-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .box {
+    border: 1px solid #888;
+    padding: 20px;
+    margin: 20px;
+    font-size: 17px;
+  }
+  
