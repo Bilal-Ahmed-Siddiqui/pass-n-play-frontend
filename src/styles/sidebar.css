@@ -1,0 +1,111 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -300px; /* Hide by default */
+  width: 300px;
+  height: 100%;
+  transition: all 0.3s ease;
+  z-index: 1000; /* Ensure the sidebar is above other content */
+  background-image: linear-gradient(
+    to bottom,
+    white 25%,
+    #212529 27%,
+    #212529 100%
+  );
+}
+
+.sidebar.open {
+  left: 0px; /* Show when open */
+}
+
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 25%;
+  background-color: none;
+}
+
+.profile-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.closebtn {
+  color: black;
+  cursor: pointer;
+  font-size: 30px;
+  height: 35px;
+  width: 35px;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: -120px;
+  margin-right: 5px;
+}
+
+.closebtn:hover {
+  background-color: lightcoral; /* Change to the desired light red color */
+}
+.profile-icon img {
+  max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
+  max-height: 100%; /* Ensure the image doesn't exceed the height of its container */
+  border-radius: 50%; /* Make the image circular */
+}
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-info Link {
+  color: blue; /* Adjust link color */
+}
+
+
+.profile-info h4 {
+  margin: 0px;
+}
+
+.separator-sidebar {
+  border-top: 3px solid #212529;
+  width: 80%;
+  margin: 0 auto; /* Define the border style for the separator */
+  
+}
+
+.list-group {
+  font-size: 20px;
+  margin-top: 50px; /* Adjust this value as needed */
+  padding-left: 7%;
+  padding-right: 7%;
+  list-style: none; /* Remove default list style */
+}
+
+.list-group-item {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  border: none; /* Remove default border */
+}
+.list-group-item:hover {
+  background-color: #464e57;
+  border-radius: 8px;
+}
+.list-group-item i {
+  margin-right: 10%; /* Add some spacing between the icon and the text */
+}
+
+
+
+
+.link{
+    color: white;
+}
+
