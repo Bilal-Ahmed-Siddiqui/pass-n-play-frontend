@@ -52,6 +52,7 @@ const EditProfile = () => {
     };
 
     fetchData();
+    // eslint-disable-next-line
   }, []);
 
   const handleChange = (e) => {
