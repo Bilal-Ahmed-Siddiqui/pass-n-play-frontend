@@ -13,7 +13,7 @@ const Login = () => {
   };
   const handleLogin = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:8000/api/auth/login", {
+    const response = await fetch("https://pass-n-play-backend.vercel.app/api/auth/login", {
       method: "Post",
       headers: {
         "Content-Type": "Application/json",

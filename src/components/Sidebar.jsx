@@ -7,7 +7,7 @@ const Sidebar = ({ isOpen, toggle }) => {
   const [name, setname] = useState("Your Name");
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("http://localhost:8000/api/auth/getuser", {
+      const response = await fetch("https://pass-n-play-backend.vercel.app/api/auth/getuser", {
         method: "GET",
         headers: {
           "Content-Type": "Application/json",

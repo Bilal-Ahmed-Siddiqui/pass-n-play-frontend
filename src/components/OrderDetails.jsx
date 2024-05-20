@@ -12,7 +12,7 @@ const OrderDetails = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://localhost:8000/api/order/${orderId}`,
+          `https://pass-n-play-backend.vercel.app/api/order/${orderId}`,
           {
             method: "GET",
             headers: {

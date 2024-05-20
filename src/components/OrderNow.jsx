@@ -70,7 +70,7 @@ const OrderNow = () => {
       returnDate: returnDate,
     };
     try {
-      const response = await fetch("http://localhost:8000/api/order/create", {
+      const response = await fetch("https://pass-n-play-backend.vercel.app/api/order/create", {
         method: "POST",
         headers: {
           "Content-Type": "Application/json",
