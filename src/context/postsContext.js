@@ -7,7 +7,7 @@ export const PostsState = (props) => {
   const [userposts, setuserposts] = useState([]);
   const [postbyID, setpostbyID] = useState([]);
   const [deleteStatus, setdeleteStatus] = useState();
-  const url = "http://localhost:8000";
+  const url = "https://pass-n-play-backend.vercel.app";
 
   //api call fetch all
   const fetchAll = async () => {

@@ -19,7 +19,7 @@ const EditProfile = () => {
       if (localStorage.getItem("token")) {
         try {
           const response = await fetch(
-            "http://localhost:8000/api/auth/getuser",
+            "https://pass-n-play-backend.vercel.app/api/auth/getuser",
             {
               method: "GET",
               headers: {
@@ -67,7 +67,7 @@ const EditProfile = () => {
     e.preventDefault();
     try {
       await fetch(
-        "http://localhost:8000/api/auth/updateuser",
+        "https://pass-n-play-backend.vercel.app/api/auth/updateuser",
         {
           method: "PUT",
           headers: {

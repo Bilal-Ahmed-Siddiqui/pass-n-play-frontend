@@ -13,7 +13,7 @@ const MyOrders = () => {
       if (localStorage.getItem("token")) {
         try {
           const response = await fetch(
-            "http://localhost:8000/api/order/userorders",
+            "https://pass-n-play-backend.vercel.app/api/order/userorders",
             {
               method: "GET",
               headers: {

@@ -18,7 +18,7 @@ const PostDetails = () => {
         await fetchbyID(postId);
         if (localStorage.getItem("token")) {
           const response = await fetch(
-            "http://localhost:8000/api/auth/getuser",
+            "https://pass-n-play-backend.vercel.app/api/auth/getuser",
             {
               method: "GET",
               headers: {
