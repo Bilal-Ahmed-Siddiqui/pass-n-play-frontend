@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const OrderDetails = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const { orderId } = useParams();
-  const navigate = useNavigate();
   const [order, setorder] = useState();
 
   useEffect(() => {
